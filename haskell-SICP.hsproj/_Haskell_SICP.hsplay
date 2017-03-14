@@ -1,0 +1,81 @@
+-- Haskell Playground 1.0
+add 1 99999
+
+
+
+add 1 5
+1+2+3+4+5
+
+square 3
+
+1 + 2*2 + 3*3 + 4*4 + 5*5
+
+addSquares 1 9
+gsum 1 (id) (+1) 99999
+
+gsum 1 square (+1) 9
+
+
+tolerance
+(<)
+
+closeEnough 1.000001 1
+
+closeEnough
+
+
+fixedPoint cos 1
+
+fixedPoint (\x ->  (sin x) + (cos x)) 1.0
+
+
+
+
+squareRoot 
+
+"dd" ++ show 1
+
+show 1
+"sdfsdfds" ++ show 1
+show (3/2)
+
+
+mapM_ putStrLn $ snd $ runWriter (fixedPoint' cos 1)
+
+
+
+
+
+
+let (result, report) = runWriter (fixedPoint' cos 1) in mapM_ putStrLn report >> return result
+
+
+
+
+
+runWriter $ (fixedPoint' cos 1)
+
+
+
+
+
+
+
+
+
+
+(++)
+
+
+
+
+
+div
+
+
+
+
+
+ 
+
+
